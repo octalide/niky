@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/niky_black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/app_name"
+        android:textColor="@color/niky_magenta"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/status"
+        android:fontFamily="monospace"
+        android:textColor="@color/niky_white"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stopped" />
+
+    <Button
+        android:id="@+id/toggle"
+        android:text="Start"
+        android:backgroundTint="@color/niky_magenta"
+        android:textColor="@color/niky_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/battery_hint"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="36dp">
+
+        <TextView
+            android:textColor="@color/niky_white"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For pocket-friendly background BLE, allow niky to ignore battery optimizations." />
+
+        <Button
+            android:id="@+id/battery_button"
+            android:text="Open battery settings"
+            android:backgroundTint="@color/niky_magenta"
+            android:textColor="@color/niky_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

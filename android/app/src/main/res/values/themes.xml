@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Niky" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/niky_magenta</item>
+        <item name="colorOnPrimary">@color/niky_black</item>
+        <item name="colorSecondary">@color/niky_magenta</item>
+        <item name="colorOnSecondary">@color/niky_black</item>
+        <item name="colorSurface">@color/niky_black</item>
+        <item name="colorOnSurface">@color/niky_white</item>
+        <item name="android:colorBackground">@color/niky_black</item>
+        <item name="colorOnBackground">@color/niky_white</item>
+        <item name="android:windowBackground">@color/niky_black</item>
+        <item name="android:statusBarColor">@color/niky_black</item>
+        <item name="android:navigationBarColor">@color/niky_black</item>
+        <item name="android:textColorPrimary">@color/niky_white</item>
+    </style>
+</resources>
